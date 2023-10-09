@@ -5,7 +5,6 @@ import os
 import time
 import glob
 import os
-from gtts import gTTS
 #from PIL import Image
 from PIL import Image as Image, ImageOps as ImagOps
 from keras.models import load_model
