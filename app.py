@@ -83,7 +83,7 @@ def text_to_speech(text, tld):
     return my_file_name, text
 
 if st.button("Reproducir"):
-    result, output_text = text_to_speech(texto_a_reproducir, tld)
+    result, output_text = text_to_speech(texto_rep, tld)
     audio_file = open(f"temp/{result}.mp3", "rb")
     audio_bytes = audio_file.read()
     st.markdown(f"## Tu audio:")
