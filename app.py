@@ -32,10 +32,21 @@ if img_file_buffer is not None:
     prediction = model.predict(data)
     print(prediction)
     if prediction[0][0]>0.5:
-      st.header('Izquierda, con Probabilidad: '+str( prediction[0][0]) )
+      st.header('Cabello, con Probabilidad: '+str( prediction[0][0]) )
     if prediction[0][1]>0.5:
-      st.header('Arriba, con Probabilidad: '+str( prediction[0][1]))
+      st.header('Cabeza, con Probabilidad: '+str( prediction[0][1]))
     if prediction[0][2]>0.5:
-      st.header('Derecha, con Probabilidad: '+str( prediction[0][2]))
+      st.header('Ceja, con Probabilidad: '+str( prediction[0][2]))
+    if prediction[0][3]>0.5:
+      st.header('Dientes, con Probabilidad: '+str( prediction[0][2]))
+    if prediction[0][4]>0.5:
+      st.header('Frente, con Probabilidad: '+str( prediction[0][2]))
+    if prediction[0][5]>0.5:
+      st.header('Menton, con Probabilidad: '+str( prediction[0][2]))
+    if prediction[0][6]>0.5:
+      st.header('Nariz, con Probabilidad: '+str( prediction[0][2]))
+    if prediction[0][7]>0.5:
+      st.header('Oreja, con Probabilidad: '+str( prediction[0][2]))
+
 
 
