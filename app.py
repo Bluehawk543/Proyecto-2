@@ -5,19 +5,13 @@ import os
 import time
 import glob
 import os
+from gtts import gTTS
 #from PIL import Image
 from PIL import Image as Image, ImageOps as ImagOps
 from keras.models import load_model
 
-import pip
 
-def install(package):
-    pip.main(['install', package])
 
-# Example
-if __name__ == '__main__':
-    install('gTTS')
-from gtts import gTTS
 
 
 try:
