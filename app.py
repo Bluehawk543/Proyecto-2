@@ -22,9 +22,9 @@ except:
 st.title("Proyecto 2")
 st.subheader("Nicolas Gonzalez y David García")
 st.write('En este proyecto la idea es que el usuario pueda aprender lenguaje de señas colombiano, '
-        'por ahora solo es posible de reconocer las siguientes palabras'
+        'por ahora solo es posible de reconocer las siguientes palabras '
         'Cabello, cabeza, ceja, dientes, frente, menton, nariz, oreja. '
-        'Ademas lo juntamos con el texto a audio para que te diga en voz alta')
+        'Ademas lo juntamos con el texto a audio para que te diga en voz alta el resultado')
 
 model = load_model('keras_model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
