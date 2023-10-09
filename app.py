@@ -5,6 +5,7 @@ import os
 import time
 import glob
 import os
+pip install gTTS
 from gtts import gTTS
 #from PIL import Image
 from PIL import Image as Image, ImageOps as ImagOps
