@@ -17,9 +17,9 @@ except:
     
 st.title("Proyecto 2")
 st.subheader("Nicolas Gonzalez y David García")
-st.write('En este proyecto la idea es que el usuario pueda aprender lenguaje de señas colombiano,'
-        'por ahora solo es posible de reconocer las siguientes palabras:'
-        'Cabello, cabeza, ceja, dientes, frente, menton, nariz, oreja'
+st.write('En este proyecto la idea es que el usuario pueda aprender lenguaje de señas colombiano, '
+        'por ahora solo es posible de reconocer las siguientes palabras'
+        'Cabello, cabeza, ceja, dientes, frente, menton, nariz, oreja. '
         'Ademas lo juntamos con el texto a audio para que te diga en voz alta')
 
 model = load_model('keras_model.h5')
