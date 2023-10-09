@@ -1,3 +1,8 @@
-0 Izquierda
-1 Arriba
-2 Derecha
+0 Cabello
+1 Cabeza
+2 Ceja
+3 Dientes
+4 Frente
+5 Menton
+6 Nariz
+7 Oreja
